@@ -1,20 +1,28 @@
-function AddTodo() {
-  return (
-    <div class="container  ">
-      <div class="row kg-row">
-        <div class="col-6">
-          <input type="text" placeholder="Enter to do here" />
+function AddTodo(){
+return (
+   <div className="todo-form row">
+          <div className="col-8">
+            <input
+              className="form-control"
+              type="text"
+              name="todoName"
+              id="todoName"
+              placeholder="To-Do Name"
+            />
+          </div>
+          <div className="col-2">
+            <input
+              className="form-control"
+              type="date"
+              name="todoDate"
+              id="todoDate"
+            />
+          </div>
+          <div className="col-2">
+            <button className="btn btn-success">Add To-Do</button>
+          </div>
         </div>
-        <div class="col-4">
-          <input type="date" />
-        </div>
-        <div class="col-2 my-auto">
-          <button class="btn btn-success kg-button my-auto">Add</button>
-        </div>
-      </div>
-    </div>
-  );
-
+)
 }
 
 export default AddTodo;
