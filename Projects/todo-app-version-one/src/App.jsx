@@ -2,6 +2,7 @@ import "./App.css";
 import AppName from "./components/AppName.jsx"; 
 import AddTodo from "./components/AddTodo.jsx"; 
 function App() {
+  let foodItems = ["Milk", "Eggs", "Bread", "Butter", "Cheese"];
   return (
     <center className="Todo-container">
      <AppName />

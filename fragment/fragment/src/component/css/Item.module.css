@@ -1,0 +1,10 @@
+.listGroupItem {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s;
+  background-color: rgb(132, 240, 240);
+}
+
+.listGroupItem:hover {
+  background-color: rgb(132, 200, 200);
+}
